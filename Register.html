@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="styleregister.css">
+</head>
+<body>
+	<h3>
+		Please fill the following form to get your registration!!
+	</h3>
+	<br>
+	<br>
+	<form method="POST">
+		<p>First Name: <input type="Text" name="First Name"></p>
+		<p>Last Name:  <input type="Text" name="Last Name"></p>
+		<p>Email: <input type="Email" name="Email" required=""></p>
+		<p>Birthday: <input type="date" name="Birthday"></p>
+		<p>Time Preferance: <br>
+			<input type="radio" name="Time Preferance">Day<br>
+			<input type="radio" name="Time Preferance">Night<br></p>
+		<p>Number of people:<br>
+			<input type="checkbox" name="number">100 -200 <br>
+			<input type="checkbox" name="number">200 -300 <br>
+			<input type="checkbox" name="number">300 -400 <br>
+		</p>
+		<p>
+			Month preference: <br>
+			<select>
+				<option value="Select">Select</option>
+				<option value="January">January</option>
+				<option value="February">February</option>
+				<option value="March">March</option>
+				<option value="April">April</option>
+				<option value="May">May</option>
+				<option value="June">June</option>
+				<option value="July">July</option>
+				<option value="August">August</option>
+				<option value="September">September</option>
+				<option value="October">Otober</option>
+				<option value="November">November</option>
+				<option value="December">December</option>
+			</select>
+		</p>
+		<p>
+			<input type="submit" name="Register">
+			<input type="Reset">
+		</p>
+		<!-- <p><font color="Green"><strong>
+			It is our gret Honour and Privilege to welcome you for you for an upcoming event!!</strong></font>
+		</p> -->
+			<style>
+			.container  { 
+							position: relative;
+						}
+			.bottomright{
+							position: absolute;
+							bottom: 10PX;
+							right: 10PX;
+							font-size: 30PX;
+							color: red;
+							text-align: center;
+							width: fit-content;
+							border:  1PX solid green;
+							padding: 5px;
+							background-color: rgba(89, 149, 50,0.4);
+						}
+			<div class="container"> 
+			</style>
+			<div class="bottomright"><a href="index.html">
+			Home </a></div>
+			</style>
+		</p>
+	</form>
+	<footer> 
+		<p class="footer">
+	It is our gret Honour and Privilege to welcome you for you for an upcoming event!!</footer>
+</body>
+</html>
